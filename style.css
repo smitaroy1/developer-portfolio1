@@ -73,22 +73,26 @@ h1{
     height: 100%;
     width: 100%;
     border: none;
-    border-bottom: 2px solid silver;
+    border-bottom: 2px solid silver
+}
+.project{
+    display: flex;
+    padding: 0 10%;
+}
+.small{
+    box-shadow: 10px 5px 40px;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+}
 
+footer{
+    background: auto;
+    text-align: center;
 }
-..wrapper.input-data label{
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    color:gray;
-}
-.wraper.input.underline{
-    position: absolute;
-    buttom:0px;
-    height: 2px;
-    width: 100%;
-    background: green;
-}
+
 
 
     
