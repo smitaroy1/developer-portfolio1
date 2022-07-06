@@ -1,12 +1,11 @@
 body{
     font-family: 'Kanit', sans-serif;
         font-family: 'Poppins', sans-serif;
+        margin: 0 auto;
+        padding: 0;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-section{
+
+.first-section{
     background-image: url(./images/donation1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,17 +13,82 @@ section{
     padding: 10rem 0;
     text-align: center;
 }
+
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
-.black-color{
-    color:black;
+
+.text-white{
+    color: white;
 }
-.link-button{
+.flexible-container{
+    display: flex;
+    padding: 5%;
+}
+.link{
        text-decoration: none;
-       background-color:( orange  tomato);
        padding: 10px 40px;
+       border-radius: 5px;
+       background-image: linear-gradient(orange tomato);
        color: white;
        font-weight: 700;
-       border-radius: 5px;
 }
+.top-banner{
+    background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 10rem 0;
+        text-align: center;
+}
+.specialize-head{
+    text-align: center;
+    padding: 0 20%;
+  justify-content:center;
+    align-items: center;
+}
+.parent{
+    display: flex;
+    padding: 0 10%;
+}
+.child{
+    box-shadow: 10px 5px 10px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 0 0 0 ;
+    border-left: 3px solid;
+    border-image: linear-gradient(blue, cyan);
+}
+.wrapper{
+    width: 450px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(red, green, blue, alpha);
+}
+.wrapper .input-data{
+    height: 40px;
+    width: 100px;
+    position: relative;
+}
+.wrapper.input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid silver;
+
+}
+..wrapper.input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color:gray;
+}
+.wraper.input.underline{
+    position: absolute;
+    buttom:0px;
+    height: 2px;
+    width: 100%;
+    background: green;
+}
+
+
+    
